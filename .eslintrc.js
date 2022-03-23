@@ -59,7 +59,7 @@ module.exports = {
     // 强制尽可能地使用点号
     "dot-notation": "warn",
     // 要求使用 === 和 !==
-    eqeqeq: "warn",
+    eqeqeq: "error",
     // 禁止 if 语句中 return 语句之后有 else 块
     "no-else-return": "warn",
     // 禁止出现空函数
@@ -117,9 +117,9 @@ module.exports = {
     // 禁止空格和 tab 的混合缩进
     "no-mixed-spaces-and-tabs": "warn",
     // 禁止出现多行空行
-    "no-multiple-empty-lines": "warn",
+    "no-multiple-empty-lines": "error",
     // 禁止出现;
-    semi: ["warn", "never"],
+    semi: 0,
     // 强制在块之前使用一致的空格
     "space-before-blocks": "warn",
     // 强制在 function的左括号之前使用一致的空格
